@@ -8,12 +8,16 @@ const init = () => {
 };
 
 export const HeroesApp = () => {
+
+  // obtiene el state actual del usuario
   const [user, dispatch] = useReducer(authReducer, {}, init);
 
+  // Cada vez que cambia de estado el usuario 
   useEffect(() => {
     localStorage.setItem('user', JSON.stringify(user));
   }, [user])
 
+  // Establece el context por encima de mis rutas
   return (
     <AuthContext.Provider
       value={{
