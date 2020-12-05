@@ -3,6 +3,8 @@ import { Redirect, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const PublicRoutes = ({ isAuth, component: Component, ...rest }) => {
+
+
     return (
         <Route 
             { ...rest }

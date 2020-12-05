@@ -15,7 +15,12 @@ export const AppRouter = () => {
     <Router>
       <div>
         <Switch>
-          <PublicRoutes exact path="/login" component={LoginScreen} isAuth={logged} />
+          <PublicRoutes
+            exact
+            path="/login"
+            component={LoginScreen}
+            isAuth={logged}
+          />
           <PrivateRoutes path="/" component={DashboardRoutes} isAuth={logged} />
         </Switch>
       </div>

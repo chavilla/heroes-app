@@ -6,7 +6,6 @@ import useForm from "../hooks/useForm";
 import { getHeroByName } from "../selectors/getHeroByName";
 
 const SearchScreen = ({ history }) => {
-
   // location hook
   const location = useLocation();
 
