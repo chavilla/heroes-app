@@ -7,7 +7,7 @@ export const HeroScreen = ({ history }) => {
 
   const hero = useMemo(() => getHeroById(heroId), [heroId]);
 
-  if (!hero || hero===undefined) {
+  if (!hero || hero === undefined) {
     return <Redirect to="/" />;
   }
 

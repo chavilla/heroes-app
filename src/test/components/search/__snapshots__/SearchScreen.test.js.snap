@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchScreen /> should have an error 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-5"
+  >
+    <h4>
+      Search form
+    </h4>
+    <hr />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="name"
+        onChange={[Function]}
+        placeholder="find your hero"
+        type="text"
+        value="batmanxhdwe"
+      />
+      <button
+        className="btn mt-2 btn-outline-primary"
+        type="submit"
+      >
+        Search...
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-md-7"
+  >
+    <h4>
+      Results
+    </h4>
+    <hr />
+    <div
+      className="alert-danger py-2 text-center"
+    >
+      There is no results with 
+      batmanxhdwe
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchScreen /> should to display the component 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-5"
+  >
+    <h4>
+      Search form
+    </h4>
+    <hr />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="name"
+        onChange={[Function]}
+        placeholder="find your hero"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn mt-2 btn-outline-primary"
+        type="submit"
+      >
+        Search...
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-md-7"
+  >
+    <h4>
+      Results
+    </h4>
+    <hr />
+    <div
+      className="alert-primary py-2 text-center"
+    >
+      Search a hero
+    </div>
+  </div>
+</div>
+`;
